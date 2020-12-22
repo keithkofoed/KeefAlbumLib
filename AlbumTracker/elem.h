@@ -1,11 +1,9 @@
-// CS311 Yoshii - el_t for HW8 Hash Table
-// Element type of a list node is defined here
-// el_t can be changed by the client to fit its needs
-// ---------------------------------
+//============================================
+//ELEM HEADER
+//===========================================
 
 #include <iostream>
 #include <string>
-//#include "slist.h"
 using namespace std;
 
 class el_t
@@ -36,12 +34,8 @@ public:
 	int getRate();
 
 	void setkey(string); // only the key part can be accessed by the user of this class.
-
-
-	// In linked list search,
-	//    == is used to compare node elements
-	// but what does it mean for this client to compare
-	// node elements?  
+	
+	//overloaded operators to make comparisons of objects easier
 	bool operator==(el_t);  // overload == for search
 	bool operator!=(el_t);  // overload != for search
 

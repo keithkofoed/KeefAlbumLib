@@ -1,7 +1,6 @@
-// CS311 Yoshii - el_t for CS311 Final Exam.
-// Element type of a list node is defined here
-// el_t can be changed by the client to fit its needs
-//----------------------------------------------------
+//============================================
+//ELEM FUNCTIONS
+//===========================================
 
 #include "elem.h"
 
@@ -33,7 +32,7 @@ el_t::el_t(string akey, string aname, string agenre, int ayear, int arating)
 	rating = arating;
 }
 
-//purpose: to return the key of object this is called on.
+//Getters make your life better; trust me on this one
 string el_t::getkey()
 {
 	return albumTitle;

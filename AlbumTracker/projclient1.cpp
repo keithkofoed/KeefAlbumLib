@@ -66,8 +66,8 @@ int main()
 			cout << "loaded data..." << endl;
 			break;
 
-		case 2:	//the weakest part of my assignment is the user interface. I want to improve this.
-			cout << "Displaying All Albums..." << endl;
+		case 2:
+			cout << "Displaying All Albums/Artists..." << endl;
 			cout << endl;
 			T.displayTable();
 			cout << endl;

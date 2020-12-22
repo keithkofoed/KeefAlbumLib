@@ -7,7 +7,6 @@
 class slist : public llist {
 
 public:
-
 	slist();   // Default constructor; calls LLIST constructor.
 
 //PURPOSE: Search for an album..

@@ -1,13 +1,6 @@
-// CS311 Yoshii - Hash Table - complete all ** parts.
-// Note: this class does not know the parts of element except for key
-// so that it would work even if each element in the hash table changed
-//-----------------------------------------------------
-
-// ============================================
-// HW#: Final Project (Album Tracker)
-// Name: Keith Kofoed
-// File Type: implementation htable.cpp
-// =============================================
+//============================================
+//HTABLE FUNCTIONS
+//===========================================
 
 using namespace std;
 #include <iostream>
@@ -38,7 +31,7 @@ int htable::hash(string key)
 }
 
 // adds the element to the table and returns slot#
-//parameteres; an el_t element
+//parameters: an album element
 int htable::add(el_t element)
 {
 	int slot = hash(element.getkey());  // hash with the key part
@@ -47,11 +40,9 @@ int htable::add(el_t element)
 	return slot;
 }
 
-// finds element using the skey and returns the found element itself
+// finds element using the Album (key) and returns the found element itself
 // or a blank element  -- there is no cout in here
-//parameters: a char key; int was previously used in another assignment but
-//as elem.cpp changes, find also changes - an exception to keeping previous
-//functions intact.
+//Parameters: Album (key)
 el_t htable::find(string skey)
 {
 	int slot = hash(skey); // hash with skey
@@ -70,6 +61,9 @@ void htable::displayTable()
 	}
 }
 
+//Displays a single album's details.
+//Parameters: an album.
+
 void htable::displaySingle(el_t arg)
 {
 	table->displayDeets(arg);
@@ -87,8 +81,8 @@ void htable::saveTable(htable at, ostream& as)
 	}
 }
 
-//PURPOSE: Deletes an entry from the table.
-//PARAMETERS: an el_t object (data entry) and a table.
+//PURPOSE: Deletes an Album from the table.
+//PARAMETERS: an album and a table.
 void htable::deleteIt(el_t arg, htable ht)
 {
 	string s = arg.getkey();	//get the key from the argument.
