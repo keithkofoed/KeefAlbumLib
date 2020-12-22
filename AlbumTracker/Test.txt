@@ -1,0 +1,1015 @@
+Script started on Fri 18 Dec 2020 06:44:10 PM PST
+]0;kofoe003@empress:~/cs311files/CS311Progs/HWPrograms/forPROJ[?1034h[kofoe003@empress forPROJ]$ g++ projclient1.cpp htable.cpp slist.cpp llist.cpp e lem.cpp
+]0;kofoe003@empress:~/cs311files/CS311Progs/HWPrograms/forPROJ[kofoe003@empress forPROJ]$ /a.out
+bash: /a.out: No such file or directory
+]0;kofoe003@empress:~/cs311files/CS311Progs/HWPrograms/forPROJ[kofoe003@empress forPROJ]$ ./a.out
+What is the input file?
+start.txt
+What is the name of the output file?
+newout.txt
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>1
+loaded data...
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>2
+Displaying All Albums...
+Information: Album, Artist, Genre, Year Released, and Rating:
+
+Slot 0:  (Empty Slot)
+Slot 1:  (Empty Slot)
+Slot 2:  (Empty Slot)
+Slot 3:  (Empty Slot)
+Slot 4:  (Empty Slot)
+Slot 5:  (Empty Slot)
+Slot 6:  (Empty Slot)
+Slot 7: The Black Moon	Holy Fawn	Shoegaze	2020	5
+Slot 8:  (Empty Slot)
+Slot 9:  (Empty Slot)
+Slot 10:  (Empty Slot)
+Slot 11:  (Empty Slot)
+Slot 12:  (Empty Slot)
+Slot 13:  (Empty Slot)
+Slot 14:  (Empty Slot)
+Slot 15:  (Empty Slot)
+Slot 16: Unlocked	Denzel Curry	Rap	2020	5
+Slot 17:  (Empty Slot)
+Slot 18: Ziltoid	Devin Townsend	Progressive	2007	5 
+Gaia	Blank Banshee	Vaporwave	2020	4
+Slot 19:  (Empty Slot)
+Slot 20:  (Empty Slot)
+Slot 21: Fallen Torches	Mastodon	Metal	2020	4
+Slot 22: Vile Luxory	Imperial Triumphant	Metal	2020	4
+Slot 23:  (Empty Slot)
+Slot 24:  (Empty Slot)
+Slot 25:  (Empty Slot)
+Slot 26:  (Empty Slot)
+Slot 27: Primeval	Venom Prison	Metal	2020	5
+Slot 28: Patchouli Blue	Bohren & Der Club of Gore	Jazz	2020	4
+Slot 29: Together	Ecostrike	Hardcore	2020	4
+Slot 30: Laughing Stock	Talk Talk	New Age	1991	5
+Slot 31:  (Empty Slot)
+Slot 32:  (Empty Slot)
+Slot 33: The Argent Intellect	Protomartyr	Post-Punk	2015	5
+Slot 34:  (Empty Slot)
+Slot 35:  (Empty Slot)
+Slot 36: A Hero's Death	Fontaines D.C.	Post-Punk	2020	3 
+Bubba	Kaytranada	Funk	2019	4
+Slot 37: Anger Management	Rico Nasty	Rap	2019	4
+Slot 38:  (Empty Slot)
+Slot 39: In The Spirit World Now	Ceremony	Post-Punk	2020	5
+Slot 40:  (Empty Slot)
+Slot 41: Punisher	Phoebe Bridgers	Acoustic	2020	5
+Slot 42:  (Empty Slot)
+Slot 43: Joy as an Act of Resistance	IDLES	Punk	2018	5
+Slot 44:  (Empty Slot)
+Slot 45: Voidfever	Drofnosura	Metal	2020	3 
+Glue	Boston Manor	Punk	2020	3 
+Infest the Rats' Nest	King Gizzard & The Lizard Wizard	Progressive	2019	5
+Slot 46: The Great Dismal	Nothing	Shoegaze	2020	5
+Slot 47: Spiritual Instinct	Alcest	Metal	2020	5 
+Delco	Uniform	Industrial	2020	3
+Slot 48:  (Empty Slot)
+Slot 49: Alien	Northlane	Metal	2019	4
+Slot 50:  (Empty Slot)
+Slot 51: The Director's Cut	Fantomas	Metal	2001	5
+Slot 52: Through the Hallow	Molassess	Psychedlic	2020	4 
+Lambs Anger	Mr Oizo	Electronic	2008	5
+Slot 53:  (Empty Slot)
+Slot 54: The Unnatural World	Have A Nice Life	Shoegaze	2019	5
+Slot 55: Ohms	Deftones	Metal	2020	5
+Slot 56:  (Empty Slot)
+Slot 57:  (Empty Slot)
+Slot 58:  (Empty Slot)
+Slot 59:  (Empty Slot)
+Slot 60:  (Empty Slot)
+Slot 61: When I Have Fears	The Murder Capital	Punk	2020	3
+Slot 62: Moral Panic	Nothing But Thieves	Rock	2020	4
+Slot 63:  (Empty Slot)
+Slot 64:  (Empty Slot)
+Slot 65: California Cursed	Drain	Hardcore	2020	5 
+Speaking in Tongues	Talking Heads	New Age	1983	5 
+Marked for Death	Emma Ruth Rundle	Acoustic	2016	5
+Slot 66:  (Empty Slot)
+Slot 67: True View	Stick To Your Guns	Hardcore	2017	5 
+Remain in Light	Talking Heads	New Age	1980	5
+Slot 68:  (Empty Slot)
+Slot 69:  (Empty Slot)
+Slot 70:  (Empty Slot)
+Slot 71: Relatives in Descent	Protomartyr	Post-Punk	2017	5
+Slot 72:  (Empty Slot)
+Slot 73:  (Empty Slot)
+Slot 74:  (Empty Slot)
+Slot 75:  (Empty Slot)
+Slot 76:  (Empty Slot)
+Slot 77:  (Empty Slot)
+Slot 78:  (Empty Slot)
+Slot 79:  (Empty Slot)
+Slot 80: Wide Awake!	Parquet Courts	Punk	2018	5
+Slot 81: Reflections	Windows 96	Vaporwave	2017	4
+Slot 82: Fragile	Yes	Progressive	1971	5 
+Pray for Paris	Westside Gunn	Rap	2020	4
+Slot 83:  (Empty Slot)
+Slot 84:  (Empty Slot)
+Slot 85:  (Empty Slot)
+Slot 86: Below the House	Planning for Burial	Metal	2017	5
+Slot 87:  (Empty Slot)
+Slot 88:  (Empty Slot)
+Slot 89: Sleep Depravation	Mortality Rate	Hardcore	2020	5
+Slot 90: The Shape of Jazz to Come	Ornette Coleman	Jazz	1959	5
+Slot 91: Jane Doe	Converge	Hardcore	2001	5 
+After Hours	The Weeknd	Pop	2020	4 
+Cowboy Bebop	Seatbelts	Jazz	2020	5
+Slot 92:  (Empty Slot)
+Slot 93: Mukiltearth	The Fall of Troy	Progressive	2020	4 
+Glass Prism	Windows 96	Vaporwave	2020	4
+Slot 94:  (Empty Slot)
+Slot 95:  (Empty Slot)
+Slot 96:  (Empty Slot)
+Slot 97: Youth	Citizen	Shoegaze	2013	5
+Slot 98:  (Empty Slot)
+Slot 99:  (Empty Slot)
+Slot 100:  (Empty Slot)
+
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>3
+Enter album to look for: The Great Dismal
+Found!
+Album, 	 Artist, 	 Genre, 	 Year Released, 	 Rating:
+The Great Dismal	Nothing	Shoegaze	2020	5
+
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>3
+Enter album to look for: After Hours
+Found!
+Album, 	 Artist, 	 Genre, 	 Year Released, 	 Rating:
+After Hours	The Weeknd	Pop	2020	4
+
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>3
+Enter album to look for: Cenizas
+Not found
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>3
+Enter album to look for: The Weeknd
+Not found
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>4
+Enter the album's name: 
+Cenizas
+Cenizas accepted. Press Enter to continue...
+Enter the artist's name: 
+Nicolas Jaar
+Nicolas Jaar accepted. Press Enter to continue...
+Enter the genre of the album: 
+Electronic
+Electronic accepted. Press Enter to continue...
+Enter the year of release: 
+2020
+2020 accepted.
+Enter your rating (1-5): 
+4
+4 accepted.
+Adding to slot 0...
+...
+Success!
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>2
+Displaying All Albums...
+Information: Album, Artist, Genre, Year Released, and Rating:
+
+Slot 0: Cenizas	Nicolas Jaar	Electronic	2020	4
+Slot 1:  (Empty Slot)
+Slot 2:  (Empty Slot)
+Slot 3:  (Empty Slot)
+Slot 4:  (Empty Slot)
+Slot 5:  (Empty Slot)
+Slot 6:  (Empty Slot)
+Slot 7: The Black Moon	Holy Fawn	Shoegaze	2020	5
+Slot 8:  (Empty Slot)
+Slot 9:  (Empty Slot)
+Slot 10:  (Empty Slot)
+Slot 11:  (Empty Slot)
+Slot 12:  (Empty Slot)
+Slot 13:  (Empty Slot)
+Slot 14:  (Empty Slot)
+Slot 15:  (Empty Slot)
+Slot 16: Unlocked	Denzel Curry	Rap	2020	5
+Slot 17:  (Empty Slot)
+Slot 18: Ziltoid	Devin Townsend	Progressive	2007	5 
+Gaia	Blank Banshee	Vaporwave	2020	4
+Slot 19:  (Empty Slot)
+Slot 20:  (Empty Slot)
+Slot 21: Fallen Torches	Mastodon	Metal	2020	4
+Slot 22: Vile Luxory	Imperial Triumphant	Metal	2020	4
+Slot 23:  (Empty Slot)
+Slot 24:  (Empty Slot)
+Slot 25:  (Empty Slot)
+Slot 26:  (Empty Slot)
+Slot 27: Primeval	Venom Prison	Metal	2020	5
+Slot 28: Patchouli Blue	Bohren & Der Club of Gore	Jazz	2020	4
+Slot 29: Together	Ecostrike	Hardcore	2020	4
+Slot 30: Laughing Stock	Talk Talk	New Age	1991	5
+Slot 31:  (Empty Slot)
+Slot 32:  (Empty Slot)
+Slot 33: The Argent Intellect	Protomartyr	Post-Punk	2015	5
+Slot 34:  (Empty Slot)
+Slot 35:  (Empty Slot)
+Slot 36: A Hero's Death	Fontaines D.C.	Post-Punk	2020	3 
+Bubba	Kaytranada	Funk	2019	4
+Slot 37: Anger Management	Rico Nasty	Rap	2019	4
+Slot 38:  (Empty Slot)
+Slot 39: In The Spirit World Now	Ceremony	Post-Punk	2020	5
+Slot 40:  (Empty Slot)
+Slot 41: Punisher	Phoebe Bridgers	Acoustic	2020	5
+Slot 42:  (Empty Slot)
+Slot 43: Joy as an Act of Resistance	IDLES	Punk	2018	5
+Slot 44:  (Empty Slot)
+Slot 45: Voidfever	Drofnosura	Metal	2020	3 
+Glue	Boston Manor	Punk	2020	3 
+Infest the Rats' Nest	King Gizzard & The Lizard Wizard	Progressive	2019	5
+Slot 46: The Great Dismal	Nothing	Shoegaze	2020	5
+Slot 47: Spiritual Instinct	Alcest	Metal	2020	5 
+Delco	Uniform	Industrial	2020	3
+Slot 48:  (Empty Slot)
+Slot 49: Alien	Northlane	Metal	2019	4
+Slot 50:  (Empty Slot)
+Slot 51: The Director's Cut	Fantomas	Metal	2001	5
+Slot 52: Through the Hallow	Molassess	Psychedlic	2020	4 
+Lambs Anger	Mr Oizo	Electronic	2008	5
+Slot 53:  (Empty Slot)
+Slot 54: The Unnatural World	Have A Nice Life	Shoegaze	2019	5
+Slot 55: Ohms	Deftones	Metal	2020	5
+Slot 56:  (Empty Slot)
+Slot 57:  (Empty Slot)
+Slot 58:  (Empty Slot)
+Slot 59:  (Empty Slot)
+Slot 60:  (Empty Slot)
+Slot 61: When I Have Fears	The Murder Capital	Punk	2020	3
+Slot 62: Moral Panic	Nothing But Thieves	Rock	2020	4
+Slot 63:  (Empty Slot)
+Slot 64:  (Empty Slot)
+Slot 65: California Cursed	Drain	Hardcore	2020	5 
+Speaking in Tongues	Talking Heads	New Age	1983	5 
+Marked for Death	Emma Ruth Rundle	Acoustic	2016	5
+Slot 66:  (Empty Slot)
+Slot 67: True View	Stick To Your Guns	Hardcore	2017	5 
+Remain in Light	Talking Heads	New Age	1980	5
+Slot 68:  (Empty Slot)
+Slot 69:  (Empty Slot)
+Slot 70:  (Empty Slot)
+Slot 71: Relatives in Descent	Protomartyr	Post-Punk	2017	5
+Slot 72:  (Empty Slot)
+Slot 73:  (Empty Slot)
+Slot 74:  (Empty Slot)
+Slot 75:  (Empty Slot)
+Slot 76:  (Empty Slot)
+Slot 77:  (Empty Slot)
+Slot 78:  (Empty Slot)
+Slot 79:  (Empty Slot)
+Slot 80: Wide Awake!	Parquet Courts	Punk	2018	5
+Slot 81: Reflections	Windows 96	Vaporwave	2017	4
+Slot 82: Fragile	Yes	Progressive	1971	5 
+Pray for Paris	Westside Gunn	Rap	2020	4
+Slot 83:  (Empty Slot)
+Slot 84:  (Empty Slot)
+Slot 85:  (Empty Slot)
+Slot 86: Below the House	Planning for Burial	Metal	2017	5
+Slot 87:  (Empty Slot)
+Slot 88:  (Empty Slot)
+Slot 89: Sleep Depravation	Mortality Rate	Hardcore	2020	5
+Slot 90: The Shape of Jazz to Come	Ornette Coleman	Jazz	1959	5
+Slot 91: Jane Doe	Converge	Hardcore	2001	5 
+After Hours	The Weeknd	Pop	2020	4 
+Cowboy Bebop	Seatbelts	Jazz	2020	5
+Slot 92:  (Empty Slot)
+Slot 93: Mukiltearth	The Fall of Troy	Progressive	2020	4 
+Glass Prism	Windows 96	Vaporwave	2020	4
+Slot 94:  (Empty Slot)
+Slot 95:  (Empty Slot)
+Slot 96:  (Empty Slot)
+Slot 97: Youth	Citizen	Shoegaze	2013	5
+Slot 98:  (Empty Slot)
+Slot 99:  (Empty Slot)
+Slot 100:  (Empty Slot)
+
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>3
+Enter album to look for: Cenizas
+Found!
+Album, 	 Artist, 	 Genre, 	 Year Released, 	 Rating:
+Cenizas	Nicolas Jaar	Electronic	2020	4
+
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>5
+Enter the album's name: The Unnatural World
+Deleting...: 
+Success!
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>2
+Displaying All Albums...
+Information: Album, Artist, Genre, Year Released, and Rating:
+
+Slot 0: Cenizas	Nicolas Jaar	Electronic	2020	4
+Slot 1:  (Empty Slot)
+Slot 2:  (Empty Slot)
+Slot 3:  (Empty Slot)
+Slot 4:  (Empty Slot)
+Slot 5:  (Empty Slot)
+Slot 6:  (Empty Slot)
+Slot 7: The Black Moon	Holy Fawn	Shoegaze	2020	5
+Slot 8:  (Empty Slot)
+Slot 9:  (Empty Slot)
+Slot 10:  (Empty Slot)
+Slot 11:  (Empty Slot)
+Slot 12:  (Empty Slot)
+Slot 13:  (Empty Slot)
+Slot 14:  (Empty Slot)
+Slot 15:  (Empty Slot)
+Slot 16: Unlocked	Denzel Curry	Rap	2020	5
+Slot 17:  (Empty Slot)
+Slot 18: Ziltoid	Devin Townsend	Progressive	2007	5 
+Gaia	Blank Banshee	Vaporwave	2020	4
+Slot 19:  (Empty Slot)
+Slot 20:  (Empty Slot)
+Slot 21: Fallen Torches	Mastodon	Metal	2020	4
+Slot 22: Vile Luxory	Imperial Triumphant	Metal	2020	4
+Slot 23:  (Empty Slot)
+Slot 24:  (Empty Slot)
+Slot 25:  (Empty Slot)
+Slot 26:  (Empty Slot)
+Slot 27: Primeval	Venom Prison	Metal	2020	5
+Slot 28: Patchouli Blue	Bohren & Der Club of Gore	Jazz	2020	4
+Slot 29: Together	Ecostrike	Hardcore	2020	4
+Slot 30: Laughing Stock	Talk Talk	New Age	1991	5
+Slot 31:  (Empty Slot)
+Slot 32:  (Empty Slot)
+Slot 33: The Argent Intellect	Protomartyr	Post-Punk	2015	5
+Slot 34:  (Empty Slot)
+Slot 35:  (Empty Slot)
+Slot 36: A Hero's Death	Fontaines D.C.	Post-Punk	2020	3 
+Bubba	Kaytranada	Funk	2019	4
+Slot 37: Anger Management	Rico Nasty	Rap	2019	4
+Slot 38:  (Empty Slot)
+Slot 39: In The Spirit World Now	Ceremony	Post-Punk	2020	5
+Slot 40:  (Empty Slot)
+Slot 41: Punisher	Phoebe Bridgers	Acoustic	2020	5
+Slot 42:  (Empty Slot)
+Slot 43: Joy as an Act of Resistance	IDLES	Punk	2018	5
+Slot 44:  (Empty Slot)
+Slot 45: Voidfever	Drofnosura	Metal	2020	3 
+Glue	Boston Manor	Punk	2020	3 
+Infest the Rats' Nest	King Gizzard & The Lizard Wizard	Progressive	2019	5
+Slot 46: The Great Dismal	Nothing	Shoegaze	2020	5
+Slot 47: Spiritual Instinct	Alcest	Metal	2020	5 
+Delco	Uniform	Industrial	2020	3
+Slot 48:  (Empty Slot)
+Slot 49: Alien	Northlane	Metal	2019	4
+Slot 50:  (Empty Slot)
+Slot 51: The Director's Cut	Fantomas	Metal	2001	5
+Slot 52: Through the Hallow	Molassess	Psychedlic	2020	4 
+Lambs Anger	Mr Oizo	Electronic	2008	5
+Slot 53:  (Empty Slot)
+Slot 54:  (Empty Slot)
+Slot 55: Ohms	Deftones	Metal	2020	5
+Slot 56:  (Empty Slot)
+Slot 57:  (Empty Slot)
+Slot 58:  (Empty Slot)
+Slot 59:  (Empty Slot)
+Slot 60:  (Empty Slot)
+Slot 61: When I Have Fears	The Murder Capital	Punk	2020	3
+Slot 62: Moral Panic	Nothing But Thieves	Rock	2020	4
+Slot 63:  (Empty Slot)
+Slot 64:  (Empty Slot)
+Slot 65: California Cursed	Drain	Hardcore	2020	5 
+Speaking in Tongues	Talking Heads	New Age	1983	5 
+Marked for Death	Emma Ruth Rundle	Acoustic	2016	5
+Slot 66:  (Empty Slot)
+Slot 67: True View	Stick To Your Guns	Hardcore	2017	5 
+Remain in Light	Talking Heads	New Age	1980	5
+Slot 68:  (Empty Slot)
+Slot 69:  (Empty Slot)
+Slot 70:  (Empty Slot)
+Slot 71: Relatives in Descent	Protomartyr	Post-Punk	2017	5
+Slot 72:  (Empty Slot)
+Slot 73:  (Empty Slot)
+Slot 74:  (Empty Slot)
+Slot 75:  (Empty Slot)
+Slot 76:  (Empty Slot)
+Slot 77:  (Empty Slot)
+Slot 78:  (Empty Slot)
+Slot 79:  (Empty Slot)
+Slot 80: Wide Awake!	Parquet Courts	Punk	2018	5
+Slot 81: Reflections	Windows 96	Vaporwave	2017	4
+Slot 82: Fragile	Yes	Progressive	1971	5 
+Pray for Paris	Westside Gunn	Rap	2020	4
+Slot 83:  (Empty Slot)
+Slot 84:  (Empty Slot)
+Slot 85:  (Empty Slot)
+Slot 86: Below the House	Planning for Burial	Metal	2017	5
+Slot 87:  (Empty Slot)
+Slot 88:  (Empty Slot)
+Slot 89: Sleep Depravation	Mortality Rate	Hardcore	2020	5
+Slot 90: The Shape of Jazz to Come	Ornette Coleman	Jazz	1959	5
+Slot 91: Jane Doe	Converge	Hardcore	2001	5 
+After Hours	The Weeknd	Pop	2020	4 
+Cowboy Bebop	Seatbelts	Jazz	2020	5
+Slot 92:  (Empty Slot)
+Slot 93: Mukiltearth	The Fall of Troy	Progressive	2020	4 
+Glass Prism	Windows 96	Vaporwave	2020	4
+Slot 94:  (Empty Slot)
+Slot 95:  (Empty Slot)
+Slot 96:  (Empty Slot)
+Slot 97: Youth	Citizen	Shoegaze	2013	5
+Slot 98:  (Empty Slot)
+Slot 99:  (Empty Slot)
+Slot 100:  (Empty Slot)
+
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>3
+Enter album to look for: The Unnatural World
+Not found
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>5
+Enter the album's name: Heaven to a Tortured Mind
+No entry exists.
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>6
+Sending data to newout.txt...
+Success!
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>7
+Exiting Program. Thank You!
+]0;kofoe003@empress:~/cs311files/CS311Progs/HWPrograms/forPROJ[kofoe003@empress forPROJ]$ ./a.out
+What is the input file?
+newout.txt
+What is the name of the output file?
+end.txfinal.txt
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>2
+Displaying All Albums...
+Information: Album, Artist, Genre, Year Released, and Rating:
+
+Slot 0:  (Empty Slot)
+Slot 1:  (Empty Slot)
+Slot 2:  (Empty Slot)
+Slot 3:  (Empty Slot)
+Slot 4:  (Empty Slot)
+Slot 5:  (Empty Slot)
+Slot 6:  (Empty Slot)
+Slot 7:  (Empty Slot)
+Slot 8:  (Empty Slot)
+Slot 9:  (Empty Slot)
+Slot 10:  (Empty Slot)
+Slot 11:  (Empty Slot)
+Slot 12:  (Empty Slot)
+Slot 13:  (Empty Slot)
+Slot 14:  (Empty Slot)
+Slot 15:  (Empty Slot)
+Slot 16:  (Empty Slot)
+Slot 17:  (Empty Slot)
+Slot 18:  (Empty Slot)
+Slot 19:  (Empty Slot)
+Slot 20:  (Empty Slot)
+Slot 21:  (Empty Slot)
+Slot 22:  (Empty Slot)
+Slot 23:  (Empty Slot)
+Slot 24:  (Empty Slot)
+Slot 25:  (Empty Slot)
+Slot 26:  (Empty Slot)
+Slot 27:  (Empty Slot)
+Slot 28:  (Empty Slot)
+Slot 29:  (Empty Slot)
+Slot 30:  (Empty Slot)
+Slot 31:  (Empty Slot)
+Slot 32:  (Empty Slot)
+Slot 33:  (Empty Slot)
+Slot 34:  (Empty Slot)
+Slot 35:  (Empty Slot)
+Slot 36:  (Empty Slot)
+Slot 37:  (Empty Slot)
+Slot 38:  (Empty Slot)
+Slot 39:  (Empty Slot)
+Slot 40:  (Empty Slot)
+Slot 41:  (Empty Slot)
+Slot 42:  (Empty Slot)
+Slot 43:  (Empty Slot)
+Slot 44:  (Empty Slot)
+Slot 45:  (Empty Slot)
+Slot 46:  (Empty Slot)
+Slot 47:  (Empty Slot)
+Slot 48:  (Empty Slot)
+Slot 49:  (Empty Slot)
+Slot 50:  (Empty Slot)
+Slot 51:  (Empty Slot)
+Slot 52:  (Empty Slot)
+Slot 53:  (Empty Slot)
+Slot 54:  (Empty Slot)
+Slot 55:  (Empty Slot)
+Slot 56:  (Empty Slot)
+Slot 57:  (Empty Slot)
+Slot 58:  (Empty Slot)
+Slot 59:  (Empty Slot)
+Slot 60:  (Empty Slot)
+Slot 61:  (Empty Slot)
+Slot 62:  (Empty Slot)
+Slot 63:  (Empty Slot)
+Slot 64:  (Empty Slot)
+Slot 65:  (Empty Slot)
+Slot 66:  (Empty Slot)
+Slot 67:  (Empty Slot)
+Slot 68:  (Empty Slot)
+Slot 69:  (Empty Slot)
+Slot 70:  (Empty Slot)
+Slot 71:  (Empty Slot)
+Slot 72:  (Empty Slot)
+Slot 73:  (Empty Slot)
+Slot 74:  (Empty Slot)
+Slot 75:  (Empty Slot)
+Slot 76:  (Empty Slot)
+Slot 77:  (Empty Slot)
+Slot 78:  (Empty Slot)
+Slot 79:  (Empty Slot)
+Slot 80:  (Empty Slot)
+Slot 81:  (Empty Slot)
+Slot 82:  (Empty Slot)
+Slot 83:  (Empty Slot)
+Slot 84:  (Empty Slot)
+Slot 85:  (Empty Slot)
+Slot 86:  (Empty Slot)
+Slot 87:  (Empty Slot)
+Slot 88:  (Empty Slot)
+Slot 89:  (Empty Slot)
+Slot 90:  (Empty Slot)
+Slot 91:  (Empty Slot)
+Slot 92:  (Empty Slot)
+Slot 93:  (Empty Slot)
+Slot 94:  (Empty Slot)
+Slot 95:  (Empty Slot)
+Slot 96:  (Empty Slot)
+Slot 97:  (Empty Slot)
+Slot 98:  (Empty Slot)
+Slot 99:  (Empty Slot)
+Slot 100:  (Empty Slot)
+
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>1
+loaded data...
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>2
+Displaying All Albums...
+Information: Album, Artist, Genre, Year Released, and Rating:
+
+Slot 0: Cenizas	Nicolas Jaar	Electronic	2020	4
+Slot 1:  (Empty Slot)
+Slot 2:  (Empty Slot)
+Slot 3:  (Empty Slot)
+Slot 4:  (Empty Slot)
+Slot 5:  (Empty Slot)
+Slot 6:  (Empty Slot)
+Slot 7: The Black Moon	Holy Fawn	Shoegaze	2020	5
+Slot 8:  (Empty Slot)
+Slot 9:  (Empty Slot)
+Slot 10:  (Empty Slot)
+Slot 11:  (Empty Slot)
+Slot 12:  (Empty Slot)
+Slot 13:  (Empty Slot)
+Slot 14:  (Empty Slot)
+Slot 15:  (Empty Slot)
+Slot 16: Unlocked	Denzel Curry	Rap	2020	5
+Slot 17:  (Empty Slot)
+Slot 18: Ziltoid	Devin Townsend	Progressive	2007	5 
+Gaia	Blank Banshee	Vaporwave	2020	4
+Slot 19:  (Empty Slot)
+Slot 20:  (Empty Slot)
+Slot 21: Fallen Torches	Mastodon	Metal	2020	4
+Slot 22: Vile Luxory	Imperial Triumphant	Metal	2020	4
+Slot 23:  (Empty Slot)
+Slot 24:  (Empty Slot)
+Slot 25:  (Empty Slot)
+Slot 26:  (Empty Slot)
+Slot 27: Primeval	Venom Prison	Metal	2020	5
+Slot 28: Patchouli Blue	Bohren & Der Club of Gore	Jazz	2020	4
+Slot 29: Together	Ecostrike	Hardcore	2020	4
+Slot 30: Laughing Stock	Talk Talk	New Age	1991	5
+Slot 31:  (Empty Slot)
+Slot 32:  (Empty Slot)
+Slot 33: The Argent Intellect	Protomartyr	Post-Punk	2015	5
+Slot 34:  (Empty Slot)
+Slot 35:  (Empty Slot)
+Slot 36: A Hero's Death	Fontaines D.C.	Post-Punk	2020	3 
+Bubba	Kaytranada	Funk	2019	4
+Slot 37: Anger Management	Rico Nasty	Rap	2019	4
+Slot 38:  (Empty Slot)
+Slot 39: In The Spirit World Now	Ceremony	Post-Punk	2020	5
+Slot 40:  (Empty Slot)
+Slot 41: Punisher	Phoebe Bridgers	Acoustic	2020	5
+Slot 42:  (Empty Slot)
+Slot 43: Joy as an Act of Resistance	IDLES	Punk	2018	5
+Slot 44:  (Empty Slot)
+Slot 45: Voidfever	Drofnosura	Metal	2020	3 
+Glue	Boston Manor	Punk	2020	3 
+Infest the Rats' Nest	King Gizzard & The Lizard Wizard	Progressive	2019	5
+Slot 46: The Great Dismal	Nothing	Shoegaze	2020	5
+Slot 47: Spiritual Instinct	Alcest	Metal	2020	5 
+Delco	Uniform	Industrial	2020	3
+Slot 48:  (Empty Slot)
+Slot 49: Alien	Northlane	Metal	2019	4
+Slot 50:  (Empty Slot)
+Slot 51: The Director's Cut	Fantomas	Metal	2001	5
+Slot 52: Through the Hallow	Molassess	Psychedlic	2020	4 
+Lambs Anger	Mr Oizo	Electronic	2008	5
+Slot 53:  (Empty Slot)
+Slot 54:  (Empty Slot)
+Slot 55: Ohms	Deftones	Metal	2020	5
+Slot 56:  (Empty Slot)
+Slot 57:  (Empty Slot)
+Slot 58:  (Empty Slot)
+Slot 59:  (Empty Slot)
+Slot 60:  (Empty Slot)
+Slot 61: When I Have Fears	The Murder Capital	Punk	2020	3
+Slot 62: Moral Panic	Nothing But Thieves	Rock	2020	4
+Slot 63:  (Empty Slot)
+Slot 64:  (Empty Slot)
+Slot 65: California Cursed	Drain	Hardcore	2020	5 
+Speaking in Tongues	Talking Heads	New Age	1983	5 
+Marked for Death	Emma Ruth Rundle	Acoustic	2016	5
+Slot 66:  (Empty Slot)
+Slot 67: True View	Stick To Your Guns	Hardcore	2017	5 
+Remain in Light	Talking Heads	New Age	1980	5
+Slot 68:  (Empty Slot)
+Slot 69:  (Empty Slot)
+Slot 70:  (Empty Slot)
+Slot 71: Relatives in Descent	Protomartyr	Post-Punk	2017	5
+Slot 72:  (Empty Slot)
+Slot 73:  (Empty Slot)
+Slot 74:  (Empty Slot)
+Slot 75:  (Empty Slot)
+Slot 76:  (Empty Slot)
+Slot 77:  (Empty Slot)
+Slot 78:  (Empty Slot)
+Slot 79:  (Empty Slot)
+Slot 80: Wide Awake!	Parquet Courts	Punk	2018	5
+Slot 81: Reflections	Windows 96	Vaporwave	2017	4
+Slot 82: Fragile	Yes	Progressive	1971	5 
+Pray for Paris	Westside Gunn	Rap	2020	4
+Slot 83:  (Empty Slot)
+Slot 84:  (Empty Slot)
+Slot 85:  (Empty Slot)
+Slot 86: Below the House	Planning for Burial	Metal	2017	5
+Slot 87:  (Empty Slot)
+Slot 88:  (Empty Slot)
+Slot 89: Sleep Depravation	Mortality Rate	Hardcore	2020	5
+Slot 90: The Shape of Jazz to Come	Ornette Coleman	Jazz	1959	5
+Slot 91: Jane Doe	Converge	Hardcore	2001	5 
+After Hours	The Weeknd	Pop	2020	4 
+Cowboy Bebop	Seatbelts	Jazz	2020	5
+Slot 92:  (Empty Slot)
+Slot 93: Mukiltearth	The Fall of Troy	Progressive	2020	4 
+Glass Prism	Windows 96	Vaporwave	2020	4
+Slot 94:  (Empty Slot)
+Slot 95:  (Empty Slot)
+Slot 96:  (Empty Slot)
+Slot 97: Youth	Citizen	Shoegaze	2013	5
+Slot 98:  (Empty Slot)
+Slot 99:  (Empty Slot)
+Slot 100:  (Empty Slot)
+
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>3
+Enter album to look for: The Unnatural World
+Not found
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>7
+Exiting Program. Thank You!
+]0;kofoe003@empress:~/cs311files/CS311Progs/HWPrograms/forPROJ[kofoe003@empress forPROJ]$ ./a.out
+What is the input file?
+start.txt
+What is the name of the output file?
+newout.txt
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>2
+Displaying All Albums...
+Information: Album, Artist, Genre, Year Released, and Rating:
+
+Slot 0:  (Empty Slot)
+Slot 1:  (Empty Slot)
+Slot 2:  (Empty Slot)
+Slot 3:  (Empty Slot)
+Slot 4:  (Empty Slot)
+Slot 5:  (Empty Slot)
+Slot 6:  (Empty Slot)
+Slot 7:  (Empty Slot)
+Slot 8:  (Empty Slot)
+Slot 9:  (Empty Slot)
+Slot 10:  (Empty Slot)
+Slot 11:  (Empty Slot)
+Slot 12:  (Empty Slot)
+Slot 13:  (Empty Slot)
+Slot 14:  (Empty Slot)
+Slot 15:  (Empty Slot)
+Slot 16:  (Empty Slot)
+Slot 17:  (Empty Slot)
+Slot 18:  (Empty Slot)
+Slot 19:  (Empty Slot)
+Slot 20:  (Empty Slot)
+Slot 21:  (Empty Slot)
+Slot 22:  (Empty Slot)
+Slot 23:  (Empty Slot)
+Slot 24:  (Empty Slot)
+Slot 25:  (Empty Slot)
+Slot 26:  (Empty Slot)
+Slot 27:  (Empty Slot)
+Slot 28:  (Empty Slot)
+Slot 29:  (Empty Slot)
+Slot 30:  (Empty Slot)
+Slot 31:  (Empty Slot)
+Slot 32:  (Empty Slot)
+Slot 33:  (Empty Slot)
+Slot 34:  (Empty Slot)
+Slot 35:  (Empty Slot)
+Slot 36:  (Empty Slot)
+Slot 37:  (Empty Slot)
+Slot 38:  (Empty Slot)
+Slot 39:  (Empty Slot)
+Slot 40:  (Empty Slot)
+Slot 41:  (Empty Slot)
+Slot 42:  (Empty Slot)
+Slot 43:  (Empty Slot)
+Slot 44:  (Empty Slot)
+Slot 45:  (Empty Slot)
+Slot 46:  (Empty Slot)
+Slot 47:  (Empty Slot)
+Slot 48:  (Empty Slot)
+Slot 49:  (Empty Slot)
+Slot 50:  (Empty Slot)
+Slot 51:  (Empty Slot)
+Slot 52:  (Empty Slot)
+Slot 53:  (Empty Slot)
+Slot 54:  (Empty Slot)
+Slot 55:  (Empty Slot)
+Slot 56:  (Empty Slot)
+Slot 57:  (Empty Slot)
+Slot 58:  (Empty Slot)
+Slot 59:  (Empty Slot)
+Slot 60:  (Empty Slot)
+Slot 61:  (Empty Slot)
+Slot 62:  (Empty Slot)
+Slot 63:  (Empty Slot)
+Slot 64:  (Empty Slot)
+Slot 65:  (Empty Slot)
+Slot 66:  (Empty Slot)
+Slot 67:  (Empty Slot)
+Slot 68:  (Empty Slot)
+Slot 69:  (Empty Slot)
+Slot 70:  (Empty Slot)
+Slot 71:  (Empty Slot)
+Slot 72:  (Empty Slot)
+Slot 73:  (Empty Slot)
+Slot 74:  (Empty Slot)
+Slot 75:  (Empty Slot)
+Slot 76:  (Empty Slot)
+Slot 77:  (Empty Slot)
+Slot 78:  (Empty Slot)
+Slot 79:  (Empty Slot)
+Slot 80:  (Empty Slot)
+Slot 81:  (Empty Slot)
+Slot 82:  (Empty Slot)
+Slot 83:  (Empty Slot)
+Slot 84:  (Empty Slot)
+Slot 85:  (Empty Slot)
+Slot 86:  (Empty Slot)
+Slot 87:  (Empty Slot)
+Slot 88:  (Empty Slot)
+Slot 89:  (Empty Slot)
+Slot 90:  (Empty Slot)
+Slot 91:  (Empty Slot)
+Slot 92:  (Empty Slot)
+Slot 93:  (Empty Slot)
+Slot 94:  (Empty Slot)
+Slot 95:  (Empty Slot)
+Slot 96:  (Empty Slot)
+Slot 97:  (Empty Slot)
+Slot 98:  (Empty Slot)
+Slot 99:  (Empty Slot)
+Slot 100:  (Empty Slot)
+
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>1
+loaded data...
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>3
+Enter album to look for: The Unnatural World
+Found!
+Album, 	 Artist, 	 Genre, 	 Year Released, 	 Rating:
+The Unnatural World	Have A Nice Life	Shoegaze	2019	5
+
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>8
+I don't understand that input. Please enter a number from 1-7.
+
+MENU------------------ :
+1. Load Album List
+2. Display All Albums
+3. Search For An Album
+4. Add A New Album
+5. Delete An Album
+6. Save Album List
+7. Exit
+==>7
+Exiting Program. Thank You!
+]0;kofoe003@empress:~/cs311files/CS311Progs/HWPrograms/forPROJ[kofoe003@empress forPROJ]$ exit
+exit
+
+Script done on Fri 18 Dec 2020 06:49:35 PM PST
